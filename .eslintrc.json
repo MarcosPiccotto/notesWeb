@@ -1,3 +1,14 @@
 {
-  "extends": "next/core-web-vitals"
+	"parser": "@babel/eslint-parser",
+	"extends": "next/core-web-vitals",
+	"parserOptions": {
+	  "requireConfigFile": false
+	},
+	"env": {
+	  "browser": true,
+	  "es2021": true
+	},
+	"rules": {
+		// Puedes agregar reglas personalizadas aquí
+	}
 }
