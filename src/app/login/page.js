@@ -1,6 +1,5 @@
 import Image from "next/image";
-import { Auth } from "../../components/auth";
-// backend de login
+import { Auth } from "@/components/Auth";
 
 export default function LoginPage() {
   return (
